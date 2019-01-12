@@ -11,7 +11,7 @@ public_folder: "/images/uploads"
 collections:
   - name: "post"
     label: "Post"
-    folder: "content/posts"
+    folder: "content/post"
     create: true
     slug: "{{slug}}"
     fields:
