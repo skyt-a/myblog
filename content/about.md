@@ -52,7 +52,7 @@ weight = 100
 |Struts|1年|
 
 ### ツール
-|FW|経験年数|
+|ツール|経験年数|
 |---|---:|
 |git(github)|1年|
 |Subversion|4年|
