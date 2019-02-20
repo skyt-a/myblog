@@ -1,15 +1,15 @@
 baseurl         = "/"
 theme           = "casper-two"
-languageCode    = "en-US"
-disqusShortname = ""
+languageCode    = "jp-JP"
+disqusShortname = "RinGoku"
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
 
 [params]
   title       = "Hugo Casper Two"
-  subtitle    = "Port of Casper 2.x for Hugo"
-  copyright   = "© 2018"
+  subtitle    = ""
+  copyright   = "© 2019"
 
   cover       = "img/blog-cover.jpg"
   description = "Here is a description of your site."
@@ -23,16 +23,16 @@ canonifyurls    = true
   mediumName = ""
 
   logo = "hugo-logo.png"
-  orgName = "EM"
+  orgName = "りんごく"
   orgWebsite = "https://www.telematika.org"
   orgDescription = "Here is a description placeholder for your org"
 
   showSupport = true
 
-  author = "EM"
+  author = "りんごく"
   authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Bandung, ID"
-  authorWebsite = "https://eueung.github.io"
+  authorLocation = "東京品川区"
+  authorWebsite = "https://ringoku.github.io"
   authorDescription = "Your description here"
 
   pageNotFoundTitle = "404 - Page not found"
