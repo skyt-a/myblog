@@ -49,18 +49,8 @@ canonifyurls    = true
   weight = 200
 
 [[menu.main]]
-  name = "Go"
-  url = "/tags/golang/"
-  weight = 100
-
-[[menu.main]]
   name = "Categories"
   url = "/categories/"
   weight = 99
-
-[[menu.main]]
-  name = "External"
-  url = "https://google.com/"
-  weight = 95
 
 
