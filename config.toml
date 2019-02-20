@@ -1,7 +1,7 @@
 baseurl         = "https://elated-blackwell-51e103.netlify.com/"
 theme           = "casper-two"
 languageCode    = "jp-JP"
-disqusShortname = "RinGoku"
+disqusShortname = "https-elated-blackwell-51e103-netlify-com."
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
