@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "https://elated-blackwell-51e103.netlify.com/"
 theme           = "casper-two"
 languageCode    = "jp-JP"
 disqusShortname = "RinGoku"
@@ -7,8 +7,8 @@ paginate        = 6
 canonifyurls    = true
 
 [params]
-  title       = "Hugo Casper Two"
-  subtitle    = ""
+  title       = "りんごくのブログ"
+  subtitle    = "りんごくのブログ"
   copyright   = "© 2019"
 
   cover       = "img/blog-cover.jpg"
@@ -25,7 +25,7 @@ canonifyurls    = true
   logo = "hugo-logo.png"
   orgName = "りんごく"
   orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
+  orgDescription = ""
 
   showSupport = true
 
