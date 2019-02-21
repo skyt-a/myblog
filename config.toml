@@ -50,7 +50,7 @@ title       = "りんごくのブログ"
   weight = 200
 
 [[menu.main]]
-  name = "Categories"
+  name = "カテゴリー"
   url = "/categories/"
   weight = 99
 
