@@ -56,8 +56,5 @@ weight = 100
 |---|---:|
 |git(github)|1年|
 |Subversion|4年|
-|Ui|1年|
 |UiPath|半年|
-|Spring framework|4年|
-|Mybatis|3年|
 
