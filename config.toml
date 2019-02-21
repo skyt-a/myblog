@@ -5,6 +5,7 @@ disqusShortname = "https-elated-blackwell-51e103-netlify-com."
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
+title       = "りんごくのブログ"
 
 [params]
   title       = "りんごくのブログ"
