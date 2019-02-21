@@ -13,7 +13,7 @@ title       = "りんごくのブログ"
   copyright   = "© 2019"
 
   cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
+  description = "Webエンジニアりんごくの日々の活動記録。学んだ技術についてのアウトプットや読んだ書籍の紹介などを行います。"
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
