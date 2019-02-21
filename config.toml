@@ -5,11 +5,11 @@ disqusShortname = "https-elated-blackwell-51e103-netlify-com."
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
-title       = "りんごくのブログ"
+title       = "ITエンジニアりんごくの技術ブログ"
 
 [params]
-  title       = "りんごくのブログ"
-  subtitle    = "りんごくのブログ"
+  title       = "ITエンジニアりんごくの技術ブログ"
+  subtitle    = "ITエンジニアりんごくの技術ブログ"
   copyright   = "© 2019"
 
   cover       = "img/blog-cover.jpg"
