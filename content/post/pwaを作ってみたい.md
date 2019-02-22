@@ -35,6 +35,7 @@ PWAは何か新しいものを作るというよりは、既存のアプリケ�
 <a href="https://press.monaca.io/atsushi/3040">PWAで何ができる？国内のPWA対応サイト５選を紹介
 </a><br>
 InstagramやTwitterなどのSNSをはじめ、中には「アイドルマスターシャイニーカラーズ」といったゲームもあるようです。(実際に触ってみましたが、ほとんどネイティブアプリとの違いを感じられず驚きました)<br>
+<img src="../../static/images/uploads/ss1.png" />
 <br>
 
 ## 対応状況
