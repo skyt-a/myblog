@@ -1,6 +1,6 @@
 ---
 title: PWAを作ってみたい
-description: PWAを作ってみたい
+description: PWAとは何なのか簡単にまとめました
 date: 2019-02-22T13:33:16.065Z
 thumbnail: /images/uploads/ss1.png
 categories:
