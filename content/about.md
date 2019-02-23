@@ -45,6 +45,8 @@ weight = 100
 |---|---:|
 |Angular(2～7)|3年|
 |Vue.js|半年|
+|Bootstrap(3~4)|3年|
+|Ionic3|1年|
 |JQuery|1年|
 |Jersey|3年|
 |Spring framework|4年|
