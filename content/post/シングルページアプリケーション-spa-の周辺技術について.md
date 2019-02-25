@@ -1,6 +1,6 @@
 ---
-title: シングルページアプリケーション(SPA)の周辺技術について
-description: シングルページアプリケーション(SPA)を実現するための周辺技術についてご紹介します
+title: シングルページアプリケーション(SPA)を支える技術について
+description: シングルページアプリケーション(SPA)を支える技術についてご紹介します
 date: 2019-02-25T13:06:10.633Z
 thumbnail: /images/uploads/thin.png
 categories:
