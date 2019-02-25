@@ -11,15 +11,23 @@ weight = 97
 
 +++
 
-<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
-  <p>
-    <label>Email: <input type="text" name="name" /></label>
+<form class="form" id="form1" name="contactform" action="thanks" netlify>
+
+  <p class="name">
+    <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
   </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
+
+  <p class="email">
+    <input name="email" type="email" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
   </p>
-  <div data-netlify-recaptcha="true"></div>
-  <p>
-    <button type="submit">Send</button>
+
+  <p class="text">
+    <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
   </p>
+
+
+  <div class="submit">
+    <input type="submit" value="SEND" id="button-blue"/>
+    <div class="ease"></div>
+  </div>
 </form>
