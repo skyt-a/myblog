@@ -54,10 +54,5 @@ comments = true
   name = "カテゴリー"
   url = "/categories/"
   weight = 99
-  
-[[menu.main]]
-  name = "お問い合わせ"
-  url = "/form/"
-  weight = 98
 
 
