@@ -11,7 +11,7 @@ comments = true
   title       = "ITエンジニアりんごくの技術ブログ"
   subtitle    = "ITエンジニアりんごくの技術ブログ"
   copyright   = "© 2019"
-
+  comments = true
   cover       = "img/blog-cover.jpg"
   description = "Webエンジニアりんごくの日々の活動記録。学んだ技術についてのアウトプットや読んだ書籍の紹介などを行います。"
   metaDescription = ""
