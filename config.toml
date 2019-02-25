@@ -6,7 +6,7 @@ paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
 title       = "ITエンジニアりんごくの技術ブログ"
-
+comments = true
 [params]
   title       = "ITエンジニアりんごくの技術ブログ"
   subtitle    = "ITエンジニアりんごくの技術ブログ"
