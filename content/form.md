@@ -11,7 +11,7 @@ weight = 97
 
 +++
 
-<form class="form" id="form1" name="contactform" action="thanks" netlify>
+<form class="form" id="form1" name="contactform" action="thanks" data-netlify-recaptcha="true" netlify>
 
   <p class="name">
     <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
