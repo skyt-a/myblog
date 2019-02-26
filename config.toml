@@ -37,7 +37,7 @@ pygmentsoptions = "linenos=inline"
   showSupport = true
 
   author = "りんごく"
-  authorAvatar = "img/ghost-icon.png"
+  authorAvatar = "images/uploads/tpaimsdo_400x400.jpg"
   authorLocation = "東京品川区"
   authorWebsite = "https://ringoku.github.io"
   authorDescription = "Webエンジニア。好きなフレームワークはAngular"
