@@ -7,6 +7,8 @@ paginate        = 6
 canonifyurls    = true
 title       = "ITエンジニアりんごくの技術ブログ"
 comments = true
+pygmentsUseClasses = true
+pygmentsCodefences = true
 [params]
   title       = "ITエンジニアりんごくの技術ブログ"
   subtitle    = "ITエンジニアりんごくの技術ブログ"
