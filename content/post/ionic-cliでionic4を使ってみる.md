@@ -1,5 +1,5 @@
 ---
-title: Ionic CLIでIonic4を使ってみる
+title: Ionic CLIを使ってみる
 description: 自作SNSの開発にあたり、Ionic CLIを使ってみます
 date: 2019-02-26T12:07:37.437Z
 thumbnail: /images/uploads/ionic_4.png
