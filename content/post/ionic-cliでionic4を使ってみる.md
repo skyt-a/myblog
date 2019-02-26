@@ -1,5 +1,5 @@
 ---
-title: Ionic CLIを使ってみる
+title: Ionic CLIでIonic4を使ってみる
 description: 自作SNSの開発にあたり、Ionic CLIを使ってみます
 date: 2019-02-26T12:07:37.437Z
 thumbnail: /images/uploads/ionic_4.png
@@ -34,7 +34,7 @@ npm install ionic -g
 次にIonicプロジェクトを作成してみます。<br>
 プロジェクトの新規作成は以下のコマンドを実行して行います。
 
-```console
+```shell
 ionic start [プロジェクト名] [オプション]
 ```
 ※使用できるオプションは以下のページなど参考にしてください<br>
@@ -43,7 +43,7 @@ ionic start [プロジェクト名] [オプション]
 
 私は以下のコマンドを実行しました。<br>
 
-```console
+```shell
 ionic start coopet --type=angular
 ```
 
@@ -64,7 +64,7 @@ Ionic Appflowはアプリ開発のプラットフォームみたいなんです�
 それではサーバーを起動して、アプリケーションにアクセスしてみたいと思います。<br>
 サーバーを起動するためには以下のコマンドを実行します。
 
-```console
+```shell
 ionic serve
 ```
 起動が完了すると、自動的にブラウザのウィンドウが開かれて画面が表示されます。<br>
