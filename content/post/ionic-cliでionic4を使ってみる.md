@@ -69,3 +69,31 @@ ionic serve
 ```
 起動が完了すると、自動的にブラウザのウィンドウが開かれて画面が表示されます。<br>
 
+<img src="/images/uploads/ionic_5.png" style="width:100%;"/>
+
+おおー、結構ちゃんとしてる。<br>
+今回選択したのは「sidemenu」なのでもちろんサイドメニューもありますね。<br>
+開くとこんな感じです。<br>
+<img src="/images/uploads/ionic_6.png" style="width:100%;"/>
+
+もちろんListを選ぶと他の画面へ遷移します。<br>
+
+<img src="/images/uploads/ionic_7.png" style="width:100%;"/>
+
+## ソースを読んでみる
+
+作成されたプロジェクトのソースに軽く目を通してみましょう。<br>
+
+### package.json
+
+<img src="/images/uploads/ionic_8.png" style="width:100%;"/>
+
+package.jsonを確認してみるとAngularは最新版の7、@ionic/angularは4ですね。<br>
+今回はプロジェクト作成時に--type=angularを指定したのでこの構成になっていますが、他にも設定できる値があり、それ次第でこの辺の構成は変わるみたいですね。<br>
+
+<img src="/images/uploads/ionic_9.png" style="width:100%;"/>
+
+devDependenciesの方も確認すると、@angular/cliにも依存していることがわかります。<br>
+試しにng serveコマンドも実行してみましたが、問題なく起動でき、ionic serveで起動したときと同じページにアクセスできました(あえてこちらを使う意味はないでしょうが...)<br>
+その他@angular/cliではおなじみのKarma+Jasmineのテスト環境も使えるみたいですね。<br>
+
