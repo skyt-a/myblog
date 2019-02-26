@@ -97,3 +97,32 @@ devDependenciesの方も確認すると、@angular/cliにも依存している�
 試しにng serveコマンドも実行してみましたが、問題なく起動でき、ionic serveで起動したときと同じページにアクセスできました(あえてこちらを使う意味はないでしょうが...)<br>
 その他@angular/cliではおなじみのKarma+Jasmineのテスト環境も使えるみたいですね。<br>
 
+### app.component.html
+
+Angularをベースにしていることもあり、ファイル構成などは@angular/cliで作成できるプロジェクトと似通っています。<br>
+/src/app/app.component.htmlも存在していて、以下のような記述がなされています。<br>
+
+<img src="/images/uploads/ionic_10.png" style="width:100%;"/>
+
+Ionicが提供する、ion-で始まる独自タグによってアプリケーション構造が記述されています。<br>
+ここでは主にメインコンテンツのルーティング(22行目,ion-router-outlet)の記述と、サイドメニュー(11～18行目)の記述がなされていますね。<br>
+
+ルーティング設定は/src/app/app-routing.module.tsに記述されており、Angularの仕組みに従った記述がなされています。<br>
+
+<img src="/images/uploads/ionic_11.png" style="width:100%;"/>
+
+### list.page.spec.ts
+
+<img src="/images/uploads/ionic_12.png" style="width:100%;"/>
+
+
+package.jsonにはJasmineに依存している記述があったので、当然のごとくテストコードもサンプルに含まれていました。
+npm testコマンドを実行することでテストを実行することももちろんできました。<br>
+
+<img src="/images/uploads/ionic_13.png" style="width:100%;"/>
+
+## おわりに
+
+今回はIonic CLIを使って、プロジェクトの新規作成、サーバーの起動と動作確認及びソースコードを軽く確認するということをやってみました。<br>
+ざっと読んだ印象だと、Ionic2と比較してめちゃくちゃ大きく変わったということもなさそうな雰囲気なので学習コスト少なめで進めていけそうです。<br>
+ペットとつながるSNS「Coopet」の開発に関しては、このブログで記事を通してお伝えしていければと思います。<br>
