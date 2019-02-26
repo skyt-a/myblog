@@ -2,13 +2,14 @@
 title: PWAを作ってみたい
 description: PWAとは何なのか簡単にまとめました
 date: 2019-02-22T13:33:16.065Z
-thumbnail: /images/uploads/ss1.png
+image: /images/uploads/1_jcxo284s51fgr3tsribqbg.png
 categories:
   - Web
   - 技術紹介
 tags:
   - IT学習
   - 技術紹介
+comments: true
 ---
 ## はじめに
 
