@@ -7,8 +7,11 @@ paginate        = 6
 canonifyurls    = true
 title       = "ITエンジニアりんごくの技術ブログ"
 comments = true
+pygmentscodefences = true
+pygmentsCodeFencesGuessSyntax = true
+pygmentsStyle = "monokai"
 pygmentsUseClasses = true
-pygmentsCodefences = true
+pygmentsoptions = "linenos=inline"
 [params]
   title       = "ITエンジニアりんごくの技術ブログ"
   subtitle    = "ITエンジニアりんごくの技術ブログ"
