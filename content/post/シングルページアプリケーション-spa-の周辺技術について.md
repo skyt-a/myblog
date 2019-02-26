@@ -2,13 +2,14 @@
 title: シングルページアプリケーション(SPA)を支える技術について
 description: シングルページアプリケーション(SPA)を支える技術についてご紹介します
 date: 2019-02-25T13:06:10.633Z
-thumbnail: /images/uploads/thin.png
+image: /images/uploads/code1211imgl1494_tp_v.jpg
 categories:
   - Web
   - 技術紹介
 tags:
   - 技術紹介
   - SPA
+comments: true
 ---
 ## はじめに
 <a href="https://elated-blackwell-51e103.netlify.com/post/%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3spa%E3%81%A8%E3%81%AF/">前回の記事</a>でシングルページアプリケーション(SPA)の概要について解説しました。<br>
