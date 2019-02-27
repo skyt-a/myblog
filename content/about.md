@@ -65,4 +65,6 @@ weight = 100
 技術についての日々の学びなどを呟いているのでフォローしてみてください<br>
 <a href="https://twitter.com/RinGoku98?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @RinGoku98</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+<section style="width:65%;">
 <a class="twitter-timeline" data-lang="ja" data-height="400" data-theme="dark" href="https://twitter.com/RinGoku98?ref_src=twsrc%5Etfw">Tweets by RinGoku98</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</section>
