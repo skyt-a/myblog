@@ -78,7 +78,7 @@ GitHub.comを選ぶと、リポジトリの新規作成画面が表示されま�
 
 <img src="/images/uploads/kraken12.png" style="width:100%;height:auto;"/>
 
-入力してEnterを押すと、ブランチを新規作成して切り替えることができます。<br>
+入力してEnterを押すと、ブランチを新規作成して切り替えることができます(CUIで言えば、「git branch」コマンド及び「git checkout」コマンドに相当します)。<br>
 developmentブランチになってますね。<br>
 
 <img src="/images/uploads/kraken13.png" style="width:100%;height:auto;"/>
@@ -90,11 +90,12 @@ developmentブランチになってますね。<br>
 追加した内容物がUnstaged Filesとして表示されます。<br>
 この内容物たちをコミットするためには、これらを変更対象(Staged Files)に追加しないといけません。<br>
 「Stage all changes」をクリックすることですべてStaged Filesに追加します。
+CUIで言えば、「git add」コマンドに相当するところですね。
 
 <img src="/images/uploads/kraken15.png" style="width:100%;height:auto;"/>
 
 追加されましたね。<br>
-コミットコメントを入力して、下の緑色のボタンを押すとローカルリポジトリにコミットされ、以下のような画面が表示されます。<br>
+コミットコメントを入力して、下の緑色のボタンを押す(CUIで言えば、「git commit」コマンドに相当します)とローカルリポジトリにコミットされ、以下のような画面が表示されます。<br>
 
 <img src="/images/uploads/kraken16.png" style="width:100%;height:auto;"/>
 
@@ -106,8 +107,20 @@ developmentブランチになってますね。<br>
 
 <img src="/images/uploads/kraken17.png" style="width:100%;height:auto;"/>
 
-Pullする対象ブランチの確認を行い、問題なければ「Submit」をクリックします。<br>
+Pullする対象ブランチの確認を行い、問題なければ「Submit」をクリックします(CUIで言えば、「git push」コマンドに相当します)。<br>
 数秒後には...<br>
 <img src="/images/uploads/kraken18.png" style="width:100%;height:auto;"/>
 
 やりました！
+
+ちゃんとリモートに反映されていました。<br>
+
+<img src="/images/uploads/kraken19.png" style="width:100%;height:auto;"/>
+
+## おわりに
+今回はGitKrakenというツールのご紹介と導入方法、実際にリポジトリ作成からリモートリポジトリへのPushまでを解説しました。<br>
+個人的にはCUIのコマンドでどういったことをしているのか、非常にわかりやすいなと感じたので、これからも活用していきたいと思います。<br>
+
+それでは今回はこの辺りで。<br>
+ここまで読んでいただき、ありがとうございました！<br>
+感想やご意見等ございましたら、<a href="https://twitter.com/RinGoku98">私のTwitter</a>までお気軽にどうぞ。
