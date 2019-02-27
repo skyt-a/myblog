@@ -60,3 +60,9 @@ weight = 100
 |Subversion|4年|
 |UiPath|半年|
 
+### Twitter
+私のTwitterアカウントです。<br>
+技術についての日々の学びなどを呟いているのでフォローしてみてください<br>
+<a href="https://twitter.com/RinGoku98?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @RinGoku98</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<a class="twitter-timeline" href="https://twitter.com/RinGoku98?ref_src=twsrc%5Etfw">Tweets by RinGoku98</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
