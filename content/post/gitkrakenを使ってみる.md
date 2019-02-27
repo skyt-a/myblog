@@ -2,7 +2,7 @@
 title: GitKrakenを使ってみる
 description: GitのGUIクライアントであるGitKrakenを使ってみます
 date: 2019-02-27T12:56:21.279Z
-image: /images/uploads/kraken17.png
+image: /images/uploads/kraken0.png
 categories:
   - 技術紹介
 tags:
@@ -16,7 +16,7 @@ comments: true
 いつも自分の作ったソースコードをちまちまコミットしていますし、何ならこのブログもGitHubで管理しています(privateリポジトリにしてるけど)。<br>
 Gitは通常CUIベースで、git addやらgit commitやらコマンドを実行して使いますが、今回紹介するGitKrakenはそんなGitをGUIベースで使えるようにするものです。<br>
 このツールについてなんで紹介しようと思ったかといえば、TwitterのTLでこのツールに関する話題が流れており、どんなツールだろうと興味をもったからです。<br>
-つまり私もよくわかっていません（笑）<br>
+つまり私もそこまでよくわかっていません（笑）<br>
 わからないなりに調べてみた成果をブログ記事という形で共有したいと思います。
 
 ## GitKrakenとは
@@ -113,7 +113,7 @@ Pullする対象ブランチの確認を行い、問題なければ「Submit」�
 
 やりました！
 
-ちゃんとリモートに反映されていました。<br>
+もちろんちゃんとリモートに反映されていました。<br>
 
 <img src="/images/uploads/kraken19.png" style="width:100%;height:auto;"/>
 
