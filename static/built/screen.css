@@ -166,4 +166,8 @@ input:focus, textarea:focus {
 		padding-right: 3%;
 	}
 }
+.timeline-Tweet-text {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
 /*# sourceMappingURL=screen.css.map */
