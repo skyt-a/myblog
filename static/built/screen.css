@@ -170,4 +170,10 @@ input:focus, textarea:focus {
     font-size: 1.1em;
     line-height: 1.5em;
 }
+html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
+  font-family: "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+code, pre {
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
 /*# sourceMappingURL=screen.css.map */
