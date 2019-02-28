@@ -170,7 +170,7 @@ input:focus, textarea:focus {
     font-size: 1.1em;
     line-height: 1.5em;
 }
-html, button, input, select, textarea, p, h1, h2, h3 .pure-g [class *= "pure-u"] {
+html, button, input, select, textarea, p, h1, h2, h3, .pure-g [class *= "pure-u"] {
   font-family: "メイリオ", "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 code, pre {
