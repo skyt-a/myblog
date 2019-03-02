@@ -1,6 +1,6 @@
 ---
 title: Elmを使ってみる（1）
-description: フロントエンド関数型リアクティブプログラミング言語Elmを使ってみます(今回は概要～導入まで)
+description: フロントエンド関数型言語Elmを使ってみます(今回は概要～導入まで)
 date: 2019-03-02T00:33:37.621Z
 image: /images/uploads/elm.png
 categories:
