@@ -6,6 +6,7 @@ image: /images/uploads/kraken0.png
 categories:
   - 技術紹介
 tags:
+  - 使ってみるシリーズ
   - 技術紹介
   - GitKraken
   - Git
