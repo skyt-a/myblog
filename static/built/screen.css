@@ -176,4 +176,8 @@ html, button, input, select, textarea, p, h1, h2, h3, .pure-g [class *= "pure-u"
 code, pre {
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
+.strong-str {
+  font-weight: bold;
+  color: red;
+}
 /*# sourceMappingURL=screen.css.map */
