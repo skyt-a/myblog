@@ -150,6 +150,8 @@ view model =
 ・Viewの部分、Model -> Html MsgでMsgとHTMLが紐付けられているのかな<br>
   → Angularでいうテンプレートとコンポーネントクラスの紐づけみたいなものかな？<br>
 ・Browser.sandbox { init = init, update = update, view = view }ってなんだ？sandbox環境を作るためのものってことはわかるけど、何を設定してるかピンとこない<br>
+・update : Msg -> Model -> Model
+→ なにこれ？
 
 ## おわりに
 今回はElmがどんな言語なのかというところとElmの導入について勉強しました。<br>
