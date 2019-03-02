@@ -7,7 +7,7 @@ categories:
   - Web
   - 技術紹介
 tags:
-  - IT学習
+  - 使ってみるシリーズ
   - 技術紹介
   - Coopet開発
 comments: true
