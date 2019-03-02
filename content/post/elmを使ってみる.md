@@ -2,7 +2,7 @@
 title: Elmを使ってみる（1）
 description: フロントエンド関数型リアクティブプログラミング言語Elmを使ってみます(今回は概要～導入まで)
 date: 2019-03-02T00:33:37.621Z
-image: /images/uploads/elm1.png
+image: /images/uploads/elm.png
 categories:
   - 使ってみるシリーズ
   - 技術紹介
@@ -22,7 +22,7 @@ comments: true
 間違った情報なども含まれている可能性もありますので、ご指摘等ございましたら<a href="http://twitter.com/RinGoku98/">私のTwitter</a>に宜しくお願い致します。
 ## Elmとは
 
-<img src="/images/uploads/elm.svg" />
+<img src="/images/uploads/elm.png" />
 
 Elmはフロントエンド開発で使用されるプログラミング言語です<br>
 以下のような特徴があります。<br>
@@ -153,3 +153,8 @@ view model =
 
 ## おわりに
 今回はElmがどんな言語なのかというところとElmの導入について勉強しました。<br>
+本当は一つの記事にまとめたかったのですが、1つのプログラミング言語を学ぶというのは当然奥が深く、何回かに分けて記事にしようと思いました。<br>
+現時点ではElmの文法などまだ何も知らない状態ですが、ここから合間を見て勉強し、何か試しに作ってみてそれを記事にできたらなと思います。<br>
+
+それでは今回はこのへんで。ここまで読んでいただきありがとうございました！<br>
+感想やご意見・質問等ございましたら、<a href="https://twitter.com/RinGoku98">私のTwitter</a>までお気軽にどうぞ。
