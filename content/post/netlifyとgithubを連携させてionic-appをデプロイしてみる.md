@@ -2,8 +2,7 @@
 title: NetlifyとGitHubを連携させてIonic Appをデプロイしてみる
 description: NetlifyとGitHubを連携させてIonic Appをデプロイしてみます
 date: 2019-03-03T03:39:13.055Z
-image: >-
-  https://raw.githubusercontent.com/RinGoku/myblog/master/static/images/uploads/1024px-ionic-logo-landscape.svg.png?token=AjCEx9G7L3YGpZ3gMHSk4wH14rq7cYxHks5ce0ybwA%3D%3D
+image: /images/uploads/netlify.png
 categories:
   - 技術紹介
   - netlify
@@ -14,11 +13,11 @@ comments: true
 ---
 ## はじめに
 現在開発しているSNS「Coopet」ですが、<a href="">PWA</a>で作成しようと考えているので、スマートフォンでの実際の動作を確認するためにテストデプロイ環境がほしいなーと思っていました。<br>
-そこで、このブログもデプロイしている、<a href="https://app.netlify.com/">Netlify</a>というサービスを利用することにしました。<br>
+そこで、このブログもデプロイしている、<a href="https://www.netlify.com/">Netlify</a>というサービスを利用することにしました。<br>
 今回はNetlifyにIonicで開発したプロジェクトをデプロイする過程を解説したいと思います。<br>
 
 ## Netlifyとは
-<a href="https://app.netlify.com/">Netlify</a>は基本無料で利用できる静的ホスティングサービスです。<br>
+<a href="https://www.netlify.com/">Netlify</a>は基本無料で利用できる静的ホスティングサービスです。<br>
 以下のような特徴があります
 ### 高パフォーマンス
 パフォーマンスがとにかく高く、ビルド・ホスティング・デプロイまで<span class="strong-str">長くても１分程度</span>で完了します。<br>
@@ -32,3 +31,7 @@ GitHubに<span class="strong-str">ソースコードをコミットするだけ<
 ### 無料でSSL/HTTPS
 完全無料のSSL/HTTPSがワンクリックで実現できます。</br>
 PWAはHTTPS環境でないとその機能を発揮しないので、非常にありがたいです。<br>
+
+## デプロイしてみる
+まずは<a href="https://www.netlify.com/">netlify</a>にアクセスします
+<img src="/images/uploads/netlify.png" style="width:100%;" />
