@@ -48,3 +48,13 @@ PWAはHTTPS環境でないとその機能を発揮しないので、非常にあ
 
 するとNetlify側に戻ってきます。<br>
 QuickStart Guideを読み飛ばして...
+<img src="/images/uploads/netlify6.png" style="width:100%;" />
+
+「New Site from Git」をクリックします。<br>
+<img src="/images/uploads/netlify7.png" style="width:100%;" />
+
+どのサービスと連携してデプロイするかを選択する画面に移動するので、「GitHub」をクリックします。<br>
+
+<img src="/images/uploads/netlify8.png" style="width:100%;" />
+
+すると新しいウィンドウでGitHubのリソースにNetlifyがアクセスことを許可するための画面が表示されるので、「Authorize Netlify By Netlify」ボタンをクリックして許可します。<br>
