@@ -1,5 +1,5 @@
 ---
-title: NetlifyとGitHubを連携させてIonic Appをデプロイしてみる
+title: Netlify+GitHubでIonic Appをデプロイしてみる
 description: NetlifyとGitHubを連携させてIonic Appをデプロイしてみます
 date: 2019-03-03T03:39:13.055Z
 image: /images/uploads/netlify_-.png
