@@ -183,4 +183,7 @@ code, pre {
 .highlight {
  width: 100%;
 }
+.post-full-content img {
+ width:auto;
+}
 /*# sourceMappingURL=screen.css.map */
