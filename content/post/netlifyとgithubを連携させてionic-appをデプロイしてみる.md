@@ -2,7 +2,7 @@
 title: NetlifyとGitHubを連携させてIonic Appをデプロイしてみる
 description: NetlifyとGitHubを連携させてIonic Appをデプロイしてみます
 date: 2019-03-03T03:39:13.055Z
-image: /images/uploads/netlify.png
+image: /images/uploads/netlify5.png
 categories:
   - 技術紹介
   - netlify
@@ -33,5 +33,18 @@ GitHubに<span class="strong-str">ソースコードをコミットするだけ<
 PWAはHTTPS環境でないとその機能を発揮しないので、非常にありがたいです。<br>
 
 ## デプロイしてみる
-まずは<a href="https://www.netlify.com/">netlify</a>にアクセスします
+まずは<a href="https://www.netlify.com/">Netlify</a>にアクセスします
 <img src="/images/uploads/netlify.png" style="width:100%;" />
+「Get Started for free」を押下します。<br>
+<img src="/images/uploads/netlify2.png" style="width:100%;" />
+
+そうするとサインアップ方法を選択する画面が表示されます。<br>
+今回はGitHubを選択します。<br>
+<img src="/images/uploads/netlify3.png" style="width:100%;" />
+するとGitHubへのサインインを求められるので入力します。<br>
+<img src="/images/uploads/netlify4.png" style="width:100%;" />
+サインインするとNetlifyとGitHub連携の認証を求められるので「Authorize netlify」を押下して認証します。</br>
+<img src="/images/uploads/netlify5.png" style="width:100%;" />
+
+するとNetlify側に戻ってきます。<br>
+QuickStart Guideを読み飛ばして...
