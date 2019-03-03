@@ -2,7 +2,7 @@
 title: NetlifyとGitHubを連携させてIonic Appをデプロイしてみる
 description: NetlifyとGitHubを連携させてIonic Appをデプロイしてみます
 date: 2019-03-03T03:39:13.055Z
-image: /images/uploads/netlify5.png
+image: /images/uploads/netlify12.png
 categories:
   - 技術紹介
   - netlify
@@ -64,3 +64,59 @@ QuickStart Guideを読み飛ばして...
 するとNetlify連携にどのリポジトリを連携するかを選択する画面が表示されます。<br>
 全てのリポジトリを連携してもいいですが、個別のリポジトリに限定したい場合はOnly select repositoriesを選択して連携したいリポジトリを選びましょう。<br>
 選択したら「Install」をクリックします。<br>
+
+<img src="/images/uploads/netlify10.png" style="width:100%;" />
+
+元の画面に戻って、もう一度GitHubを選択すると、連携する対象のリポジトリを選択する画面が表示されます。<br>
+検索もできるので、対象のリポジトリを選択しましよう。<br>
+プライベートリポジトリでも問題なく連携できますよ。<br>
+<img src="/images/uploads/netlify11.png" style="width:100%;" />
+
+リポジトリを選択すると、次は対象ブランチの選択と、ビルドの設定を行います。<br>
+
+ブランチは適切なものを選択するとして、問題はビルドの設定ですが、<br>
+現時点でのIonic CLI(2019/03/03時点)で作られたプロジェクトでは以下のように設定すればOKです(<a href="https://elated-blackwell-51e103.netlify.com/post/ionic-cli%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%8B/">先日の記事</a>で私が使った設定で作成したプロジェクトでしか確認していませんが、概ね問題ないかと)。<br>
+
+Build command: npm run build --prod<br>
+Public directory: www<br>
+
+<img src="/images/uploads/netlify12.png" style="width:100%;" />
+
+Show advancedをクリックして、環境変数を追加したり、netlify.tomlというファイルを使って更に柔軟な設定を行うことも可能ですが、今回は不要です。<br>
+
+「Deploy site」をクリックすると、
+
+<img src="/images/uploads/netlify13.png" style="width:100%;" />
+
+こんな画面が出てきます。<br>
+まさに今デプロイが行われているようですね。<br>
+上のDeployタブをクリックすると、
+
+<img src="/images/uploads/netlify14.png" style="width:100%;" />
+
+現在のデプロイ状況が表示されます。<br>
+今は１件しかないですが、過去のデプロイについてもこの画面で確認できます。<br>
+現在のデプロイをクリックすると、
+
+<img src="/images/uploads/netlify15.png" style="width:100%;" />
+
+こんな感じでログを見ることもできます。<br>
+画像じゃわからないですが、ちゃんとリアルタイムに流れるんですよー。<br>
+
+<img src="/images/uploads/netlify16.png" style="width:100%;" />
+
+こんな感じでステータスが「PUBLISHED」になれば、デプロイ完了です！
+
+URLをクリックしてみましょう<br>
+
+<img src="/images/uploads/netlify17.png" style="width:100%;" />
+
+成功していれば、アプリケーションの画面が表示されるはずです!<br>
+(ちなみに実際の開発は違うURLで行っているので、今回画像で表示されているURLではアクセスできません)
+
+## おわりに
+今回はIonic AppをGitHubと連携してNetlifyにデプロイする手順をご紹介しました。<br>
+本当に簡単にデプロイできて、初めて使ったときは驚きました。<br>
+みなさんもNetlifyを使って自分のWebページ、公開してみてくださいね。<br>
+では、今回はこのへんで。ここまで読んでいただきありがとうございました！
+
