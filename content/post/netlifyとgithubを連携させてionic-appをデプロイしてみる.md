@@ -58,3 +58,9 @@ QuickStart Guideを読み飛ばして...
 <img src="/images/uploads/netlify8.png" style="width:100%;" />
 
 すると新しいウィンドウでGitHubのリソースにNetlifyがアクセスことを許可するための画面が表示されるので、「Authorize Netlify By Netlify」ボタンをクリックして許可します。<br>
+
+<img src="/images/uploads/netlify9.png" style="width:100%;" />
+
+するとNetlify連携にどのリポジトリを連携するかを選択する画面が表示されます。<br>
+全てのリポジトリを連携してもいいですが、個別のリポジトリに限定したい場合はOnly select repositoriesを選択して連携したいリポジトリを選びましょう。<br>
+選択したら「Install」をクリックします。<br>
