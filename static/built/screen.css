@@ -186,4 +186,8 @@ code, pre {
 .post-full-content img {
  width:auto;
 }
+
+body {
+ padding: 0 !important;
+}
 /*# sourceMappingURL=screen.css.map */
