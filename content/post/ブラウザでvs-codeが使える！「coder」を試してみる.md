@@ -149,7 +149,8 @@ JavaやGoの姿も見えますね。<br>
 
 インストール完了ですね！
 
-それでは、npm startコマンドでサーバーを起動してみます。<br>
+それでは、Ionic serveコマンドでサーバーを起動してみます。<br>
+(Ionicコマンドを使えるようにするために、「npm i ionic -g」を実行しました)
 
 <img src="/images/uploads/Coder17.png" style="width: 100%;"/>
 
@@ -163,5 +164,5 @@ JavaやGoの姿も見えますね。<br>
 
 ```
 npm install serve ngrok
-npx serve . &
+npx ngrok http 8100
 ```
