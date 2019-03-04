@@ -1,6 +1,8 @@
 ---
 title: ブラウザでVS Codeが使える！「Coder」を試してみる
-description: VS Codeが使えるクラウドIDE「Coder」を試してみます
+description: |-
+  VS Codeが使えるクラウドIDE「Coder」を試してみます
+  導入→プロジェクト作成→GitHubからソース取得→開発サーバー起動→画面表示確認まで行います
 date: 2019-03-04T11:11:49.097Z
 image: /images/uploads/coder17.png
 categories:
@@ -149,16 +151,17 @@ JavaやGoの姿も見えますね。<br>
 
 インストール完了ですね！
 
-それでは、Ionic serveコマンドでサーバーを起動してみます。<br>
+それでは、ionic serveコマンドでサーバーを起動してみます。<br>
 (Ionicコマンドを使えるようにするために、「npm i ionic -g」を実行しました)
 
 <img src="/images/uploads/Coder17.png" style="width: 100%;"/>
 
 起動しましたね。<br>
 しかしこのままでは私の端末から、このCoder上のサーバーには接続できません。<br>
+この開発環境の「localhost」に外部からアクセスすることができないからです<br>
 
 なので「ngrok」というサービスを使用します。<br>
-簡単に言えば、ローカルPC上で稼働しているネットワーク（TCP）サービスを外部に公開できるサービスです。<br>
+簡単に言えば、ローカルPC上(localhost)で稼働しているネットワークサービスを外部に公開できるサービスです。<br>
 今回はこのCoder環境に導入することで、私の端末からアクセスできるようにします。<br>
 以下のコマンドを実行します。<br>
 
@@ -166,3 +169,32 @@ JavaやGoの姿も見えますね。<br>
 npm install serve ngrok
 npx ngrok http 8100
 ```
+
+成功すればこんな感じの画面が表示されます。
+<img src="/images/uploads/Coder18.png" style="width: 100%;"/>
+
+この「http://269f45fa.ngrok.io」というURLにアクセスすると、このCoder上の「http://localhost:8100」にアクセスしたことと同義になります(URLはngrokの実行ごとに変わります)。<br>
+
+さて早速アクセスしてみましょう...といいたいところですが、この方法でアクセスするためには起動コマンドを以下のように変える必要があります。<br>
+
+```
+ionic serve -- --disable-host-check
+```
+
+詳しくは説明しませんが、このオプションを付けないと、真っ白な画面に「Invalid Host header」という文字が表示されるだけで、実際のアプリケーションを表示することができません。<br>
+この起動コマンドでサーバーを起動し、「http://269f45fa.ngrok.io」にアクセスしてみると...
+<img src="/images/uploads/Coder19.png" style="width: 100%;"/>
+
+やりました！
+
+## おわりに
+
+今回はクラウドIDE「Coder」を使ってみる過程を解説しました。<br>
+
+正直、ブラウザ上でいじっていることを忘れるくらいにはVS Codeそのものなので、Codeanywhereで感じていた違和感がかなり払拭できそうです。<br>
+
+さらっと流しましたが、「ngrok」もなかなかすごいサービスですので、皆さん使ってみてください。<br>
+
+まだCoderの肝となる拡張機能に関しては試せていないので、実際に開発した使用感も含めて、また記事にできたらなと思います。<br>
+
+それでは今回はここまで
