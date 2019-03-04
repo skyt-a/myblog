@@ -2,8 +2,7 @@
 title: ブラウザでVS Codeが使える！「Coder」を試してみる
 description: VS Codeが使えるクラウドIDE「Coder」を試してみます
 date: 2019-03-04T11:11:49.097Z
-image: >-
-  https://raw.githubusercontent.com/RinGoku/myblog/master/static/images/uploads/1024px-ionic-logo-landscape.svg.png?token=AjCEx-nIFQ5VrMlnZiFPLDdTy-2Hh9Shks5cfQgrwA%3D%3D
+image: /images/uploads/coder3.png
 categories:
   - 使ってみるシリーズ
 tags:
@@ -22,4 +21,61 @@ comments: true
 そこで少し調べてみたところ、<a href="https://coder.com/">Coder</a>を見つけたという流れです。<br>
 
 今日は使ってみるシリーズ第4弾ということで(Elmは勉強中です)、クラウドIDE「Coder」を使ってみようと思います。<br>
+
+## クラウドIDEとは
+
+そもそもクラウドIDEとは何かというところから、お話したいと思います。<br>
+クラウドIDEはその名の通り、「<span class="strong-str">クラウド上に構築されたブラウザからアクセスできる開発環境</span>」を指します。<br>
+普段皆さんが開発する時はもちろん皆さん自身のパソコンの中にパッケージ管理ツールを入れたり、エディタを入れたり、データベースサーバーを立てたりして、開発環境を構築すると思います。<br>
+クラウドIDEではそういった環境構築を、皆さんのパソコンの中でするのではなく、クラウド上で行い、そして皆さんのパソコンからブラウザを通して、クラウド上の開発環境にアクセスすることになります。<br>
+
+クラウドIDEには以下のようなメリットがあります。<br>
+
+・開発環境のプリセットが用意されており、それを選ぶだけで容易に開発環境を構築できる<br>
+
+・ソースのビルドやサーバーの起動は自分のパソコンでなく、クラウド上で行われるため、自分のパソコンのリソースの消費を抑えて開発が可能。<br>
+
+・開発端末が変わっても環境構築をやり直す必要がない
+
+特に1点目は初学者の1つ目の壁である環境構築を格段にやりやすくしてくれる点なので、クラウドIDEは初学者にもおすすめのサービスとなっています。<br>
+
+## Coderとは
+
+<a href="https://coder.com/">Coder</a>は端的に言えば「(ほぼ)VS Codeが使えるクラウドIDEサービス」です。現在はアルファ版として公開されています。<br>
+実はVS CodeライクなクラウドIDEは他にもあるのですが、Coderが優れているのは、<span class="strong-str">大半のVS Code拡張機能が使用できる</span>点にあります。<br>
+<img src="/images/uploads/coder.png" style="width: 100%;"/>
+
+言語サポートはこんな感じになっています。<br>
+<img src="/images/uploads/coder2.png" style="width: 100%;"/>
+
+よく目にするようなものは揃っている印象ですね。<br>
+とりあえず私の用途では困らなさそうです。<br>
+プロジェクトはDockerコンテナ内に作成されるので、ある程度融通も効きそうですしね。<br>
+バージョンもボタン一つで切り替えられるとのこと<br>
+
+## 登録してみる
+
+それでは早速使ってみましょう。<br>
+
+<a href="https://coder.com/">公式ページ</a>にアクセスします。<br>
+
+<img src="/images/uploads/Coder3.png" style="width: 100%;"/>
+
+サインアップにはGithub、Google、Emailが選べるみたいですね。<br>
+今回はGithubでサインアップしようと思います。<br>
+
+<img src="/images/uploads/Coder4.png" style="width: 100%;"/>
+
+ログインを求められるので、ユーザー情報を入力してログインします。<br>
+
+<img src="/images/uploads/Coder5.png" style="width: 100%;"/>
+
+するとCoderとGitHub連携の認証を求められるので「Authorize codercom」をクリックして認証します。<br>
+
+<img src="/images/uploads/Coder6.png" style="width: 100%;"/>
+
+認証が完了するとCoder側に戻ってきて、ユーザー名と電話番号の入力を求められます。<br>
+SMS認証が必要なのは予想外でした。<br>
+複数アカウント防止用でしょうか。<br>
+入力して「Complete Sign Up」をクリックします。<br>
 
