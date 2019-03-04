@@ -4,7 +4,7 @@ description: |-
   VS Codeが使えるクラウドIDE「Coder」を試してみます
   導入→プロジェクト作成→GitHubからソース取得→開発サーバー起動→画面表示確認まで行います
 date: 2019-03-04T11:11:49.097Z
-image: /images/uploads/coder17.png
+image: /images/uploads/coder22.png
 categories:
   - 使ってみるシリーズ
 tags:
