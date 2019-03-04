@@ -137,7 +137,7 @@ git merge origin/development
 無事取得できました！
 次にnpmで関連パッケージをインストールします。<br>
 そのままですと、npmコマンドが使えないので、Node.js環境を使えるようにします。<br>
-「Ctrl+Shift+P」を押下して、コマンド入力バーを開き、「mount」と入力すると「Mount Volumn」が候補に出てくるので選択します。<br>
+「Ctrl+Shift+P」を押下して、コマンド入力バーを開き、「mount」と入力すると「Mount Volume」が候補に出てくるので選択します。<br>
 
 <img src="/images/uploads/Coder14.png" style="width: 100%;"/>
 
@@ -176,7 +176,7 @@ npx ngrok http 8100
 成功すればこんな感じの画面が表示されます。
 <img src="/images/uploads/Coder18.png" style="width: 100%;"/>
 
-この「http://269f45fa.ngrok.io」というURLにアクセスすると、このCoder上の「http://localhost:8100」にアクセスしたことと同義になります(URLはngrokの実行ごとに変わります)。<br>
+この「http://269f45fa.ngrok.io 」というURLにアクセスすると、このCoder上の「http://localhost:8100 」にアクセスしたことと同義になります(URLはngrokの実行ごとに変わります)。<br>
 
 さて早速アクセスしてみましょう...といいたいところですが、この方法でアクセスするためには起動コマンドを以下のように変える必要があります。<br>
 
@@ -185,7 +185,7 @@ ionic serve -- --disable-host-check
 ```
 
 詳しくは説明しませんが、このオプションを付けないと、真っ白な画面に「Invalid Host header」という文字が表示されるだけで、実際のアプリケーションを表示することができません。<br>
-この起動コマンドでサーバーを起動し、「http://269f45fa.ngrok.io」にアクセスしてみると...
+この起動コマンドでサーバーを起動し、「http://269f45fa.ngrok.io 」にアクセスしてみると...
 <img src="/images/uploads/Coder19.png" style="width: 100%;"/>
 
 やりました！
