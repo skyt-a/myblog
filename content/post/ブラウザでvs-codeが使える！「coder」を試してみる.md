@@ -2,7 +2,7 @@
 title: ブラウザでVS Codeが使える！「Coder」を試してみる
 description: VS Codeが使えるクラウドIDE「Coder」を試してみます
 date: 2019-03-04T11:11:49.097Z
-image: /images/uploads/coder3.png
+image: /images/uploads/coder9.png
 categories:
   - 使ってみるシリーズ
 tags:
@@ -78,4 +78,37 @@ comments: true
 SMS認証が必要なのは予想外でした。<br>
 複数アカウント防止用でしょうか。<br>
 入力して「Complete Sign Up」をクリックします。<br>
+<img src="/images/uploads/Coder7.png" style="width: 100%;"/>
+
+これにて登録完了です！<br>
+
+## 使ってみる
+
+<img src="/images/uploads/Coder7.png" style="width: 100%;"/>
+
+まずはプロジェクトを作成してみましょう。<br>
+左上にある「+ Create Project」をクリックします。<br>
+するとプロジェクト名の入力を求められるので、入力します。<br>
+私は「Coopet」と入力しました。<br>
+<img src="/images/uploads/Coder8.png" style="width: 100%;"/>
+
+するとプロジェクト行が追加されるので、「Open in VSCode」をクリックします。<br>
+
+すると...<br>
+<img src="/images/uploads/Coder9.png" style="width: 100%;"/>
+
+おおー！<br>
+これはまさにVS Code!<br>
+ここまで再現されているとは...<br>
+
+「Ctrl+@」でターミナルもちゃんと開きます。<br>
+
+<img src="/images/uploads/Coder10.png" style="width: 100%;"/>
+
+Emmetも...
+
+<img src="/images/uploads/Coder11.png" style="width: 100%;"/>
+
+<img src="/images/uploads/Coder12.png" style="width: 100%;"/>
+使えますね！
 
