@@ -2,7 +2,7 @@
 title: ブラウザでVS Codeが使える！「Coder」を試してみる
 description: VS Codeが使えるクラウドIDE「Coder」を試してみます
 date: 2019-03-04T11:11:49.097Z
-image: /images/uploads/coder9.png
+image: /images/uploads/coder17.png
 categories:
   - 使ってみるシリーズ
 tags:
@@ -84,6 +84,8 @@ SMS認証が必要なのは予想外でした。<br>
 
 ## 使ってみる
 
+### プロジェクトを作成する
+
 <img src="/images/uploads/Coder7.png" style="width: 100%;"/>
 
 まずはプロジェクトを作成してみましょう。<br>
@@ -112,3 +114,54 @@ Emmetも...
 <img src="/images/uploads/Coder12.png" style="width: 100%;"/>
 使えますね！
 
+### GitHubからソースコードを取得する
+
+さて、それではGitHubで管理しているCoopetのソースコードを取得してみましょう。<br>
+現状GUIで取得する機能はないようで、統合ターミナルにコマンドを入力して取得します。<br>
+以下のコマンドを発行して取得しました。<br>
+
+```
+git init
+git remote add origin https://github.com/RinGoku/coopet.git
+git fetch origin
+git merge origin/development
+```
+
+<img src="/images/uploads/Coder13.png" style="width: 100%;"/>
+
+無事取得できました！
+次にnpmで関連パッケージをインストールします。<br>
+そのままですと、npmコマンドが使えないので、Node.js環境を使えるようにします。<br>
+「Ctrl+Shift+P」を押下して、コマンド入力バーを開き、「mount」と入力すると「Mount Volumn」が候補に出てくるので選択します。<br>
+
+<img src="/images/uploads/Coder14.png" style="width: 100%;"/>
+
+するとマウント可能な一覧が表示されます。<br>
+
+<img src="/images/uploads/Coder15.png" style="width: 100%;"/>
+
+JavaやGoの姿も見えますね。<br>
+今回はnode/11.0.0を選びました。<br>
+
+これでnpmコマンドが使えるようになるので、早速npm installすると...<br>
+
+<img src="/images/uploads/Coder16.png" style="width: 100%;"/>
+
+インストール完了ですね！
+
+それでは、npm startコマンドでサーバーを起動してみます。<br>
+
+<img src="/images/uploads/Coder17.png" style="width: 100%;"/>
+
+起動しましたね。<br>
+しかしこのままでは私の端末から、このCoder上のサーバーには接続できません。<br>
+
+なので「ngrok」というサービスを使用します。<br>
+簡単に言えば、ローカルPC上で稼働しているネットワーク（TCP）サービスを外部に公開できるサービスです。<br>
+今回はこのCoder環境に導入することで、私の端末からアクセスできるようにします。<br>
+以下のコマンドを実行します。<br>
+
+```
+npm install serve ngrok
+npx serve . &
+```
