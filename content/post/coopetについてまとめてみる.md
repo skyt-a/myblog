@@ -2,7 +2,7 @@
 title: Coopetについてまとめてみる
 description: 私が開発しているSNS「Coopet」についてまとめてみました
 date: 2019-03-05T11:24:14.691Z
-image: /images/uploads/twitter_header_photo_1.png
+image: /images/uploads/coopet_structure.png
 categories:
   - Coopet開発、自己紹介
 tags:
@@ -52,3 +52,23 @@ SNS的なWebサービスを作ろうと思ったのは、８月からフリー�
 
 Coopetは以下のような構成で作ろうと思っています。<br>
 
+<img src="/images/uploads/coopet_structure.png" style="width:100%;"/>
+
+各々軽く解説していきます。<br>
+
+### フロントエンド
+#### Angular
+フロントエンドのJavaScriptフレームワークは自分が最も使い慣れている「Angular」を使用します。<br>
+Webエンジニアとして自分の最も売りとなると考えている部分はこのAngularの業務経験だと思っているので、そこをアピールするためにもここは外せません。<br>
+
+#### Ionic
+Angularと相性の良いUIフレームワークということで選定しました。<br>
+また今回のアプリはPWAとして開発したいと思っているので、それに標準対応している部分も望ましいと考えました。<br>
+詳しい選定内容については<a href="https://elated-blackwell-51e103.netlify.com/post/2019%E5%B9%B4%E3%81%AB%E9%81%B8%E3%81%B6%E3%81%B9%E3%81%8D%E3%83%A2%E3%83%90%E3%82%A4%E3%83%ABui%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AF/">こちらの記事</a>をご覧ください。<br>
+
+### サーバーサイド
+サーバーサイドは基本、AWS(Amazon Web Service)を使おうと思っています。<br>
+自分が持っている技術をアピールするという観点で考えると、実務経験のないAWSを選定しているのはAngularの選定理由と矛盾しますが、私はバックエンド側の経験はそれほどなく(Javaでひと通りはやっていますが)、
+またシングルページアプリケーションにするとサーバーサイドはかなり薄くなるので、Javaフレームワークでごりごり書くよりは、パブリッククラウドのサービスを組み合わせてコード量も最小限に抑えようと考えました。<br>
+パブリッククラウドの知識は今後避けては通れないところだと思っているので、今のうちに触っておきたいというのも理由のひとつですね。<br>
+パブリッククラウドの中でもAzureやGCPでなくAWSなのは
