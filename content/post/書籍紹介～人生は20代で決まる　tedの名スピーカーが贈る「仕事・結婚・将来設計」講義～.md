@@ -33,9 +33,8 @@ comments: true
 この本の著者はメグジェイというアメリカの女性心理学者です。<br>
 20代の若者の心理を専門としており、私設のクリニックでカウンセラーとしても活動しています。<br>
 また彼女はTED(世界中の著名人によるさまざまな講演会を開催・配信している非営利団体)にも出演歴があります(日本語字幕もあるのでぜひ)。<br>
-<div style="position: relative;padding-bottom: 56.25%;height: 0;overflow: hidden;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vhhgI4tSMwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe>
-</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vhhgI4tSMwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 この本は彼女がカウンセラーとして、20代の相談者に行ったカウンセリングを通じて得た知見を本にしたものです。<br>
 つまり、決して彼女の個人的な意見を語った本ではなく、数多くのサンプルに基づいた統計的にも裏付けのあるものになっているということです。<br>
