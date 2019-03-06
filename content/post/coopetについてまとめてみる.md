@@ -17,6 +17,8 @@ comments: true
 完成したサービスの紹介でなく、まだまだ企画段階なのですが、現時点で考えていることについてまとめておこうと思います。<br>
 いつもの記事のような技術解説的な要素は薄めなのですが、よろしければ御覧ください！
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-9721752780042654" data-ad-slot="5186585524"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+
 ## Coopetとは
 
 <img src="/images/uploads/twitter_header_photo_1.png" style="width:100%;"/>
@@ -29,6 +31,7 @@ Coopetは「ペットでつながるSNS」をテーマにしたサービスで�
 ・ペットプロフィール機能(どんな動物か、可愛いのかかっこいいのかなどをタグ付けして検索できるような)<br>
 
 まだランディングページとログイン画面しか作ってないですが、こんな感じの画面になる予定です。<br>
+
 <section style="display:flex;align-items: flex-start;
 ">
 <img src="/images/uploads/coopet1.png" style="width:50%;"/>
@@ -59,13 +62,16 @@ Coopetは以下のような構成で作ろうと思っています。<br>
 各々軽く解説していきます。<br>
 
 ### フロントエンド
+
 #### Angular
+
 <img src="/images/uploads/angular.png" />
 
 フロントエンドのJavaScriptフレームワークは自分が最も使い慣れている「Angular」を使用します。<br>
 Webエンジニアとして自分の最も売りとなると考えている部分はこのAngularの業務経験だと思っているので、そこをアピールするためにもここは外せません。<br>
 
 #### Ionic
+
 <img src="/images/uploads/ionic-framework-og.png" style="width:100%;"/>
 
 Angularと相性の良いUIフレームワークということで選定しました。<br>
@@ -73,6 +79,7 @@ Angularと相性の良いUIフレームワークということで選定しま�
 詳しい選定内容については<a href="https://elated-blackwell-51e103.netlify.com/post/2019%E5%B9%B4%E3%81%AB%E9%81%B8%E3%81%B6%E3%81%B9%E3%81%8D%E3%83%A2%E3%83%90%E3%82%A4%E3%83%ABui%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AF/">こちらの記事</a>をご覧ください。<br>
 
 ### サーバーサイド
+
 <img src="/images/uploads/aws.png" style="width:100%;"/>
 
 サーバーサイドは基本、AWS(Amazon Web Service)を使おうと思っています。<br>
