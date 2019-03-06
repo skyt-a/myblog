@@ -13,7 +13,8 @@ comments: true
 
 今回は書籍紹介ということで、私が読んで面白かったと感じた書籍を紹介するという記事です。<br>
 今回紹介する本はこちら
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ringoku06-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B00N4FBEK8&linkId=3da4f2ab0d81d5e08bb77af69463991c"></iframe>
+
+<a href="https://www.amazon.co.jp/dp/B00N4FBEK8/ref=as_li_ss_il?_encoding=UTF8&btkr=1&linkCode=li2&tag=ringoku06-22&linkId=2fa42843d7c29a63e3111d2f9cd4e4d4&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00N4FBEK8&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=ringoku06-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=ringoku06-22&language=ja_JP&l=li2&o=9&a=B00N4FBEK8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 「人生は20代で決まる　TEDの名スピーカーが贈る「仕事・結婚・将来設計」講義」という書籍です。<br>
 
