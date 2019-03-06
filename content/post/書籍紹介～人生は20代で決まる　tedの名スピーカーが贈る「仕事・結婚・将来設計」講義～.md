@@ -14,13 +14,14 @@ comments: true
 今回は書籍紹介ということで、私が読んで面白かったと感じた書籍を紹介するという記事です。<br>
 今回紹介する本はこちら
 
-<a href="https://www.amazon.co.jp/dp/B00N4FBEK8/ref=as_li_ss_il?_encoding=UTF8&btkr=1&linkCode=li3&tag=ringoku06-22&linkId=fef7dd57116588b9e41564a4a0534b13&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00N4FBEK8&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=ringoku06-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=ringoku06-22&language=ja_JP&l=li3&o=9&a=B00N4FBEK8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="https://www.amazon.co.jp/dp/B00N4FBEK8/ref=as_li_ss_il?_encoding=UTF8&btkr=1&linkCode=li2&tag=ringoku06-22&linkId=2fa42843d7c29a63e3111d2f9cd4e4d4&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00N4FBEK8&Format=_SL160_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=ringoku06-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=ringoku06-22&language=ja_JP&l=li2&o=9&a=B00N4FBEK8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 「人生は20代で決まる　TEDの名スピーカーが贈る「仕事・結婚・将来設計」講義」という書籍です。<br>
 
 ## どんな本なのか
 
 以下はAmazonからの引用です。
+
 >・生涯賃金やパーソナリティーが決まる。<br>
 >・将来のパートナーに出会う。<br>
 >・人生を決定づける出来事が起こる。<br>
@@ -33,9 +34,8 @@ comments: true
 この本の著者はメグジェイというアメリカの女性心理学者です。<br>
 20代の若者の心理を専門としており、私設のクリニックでカウンセラーとしても活動しています。<br>
 また彼女はTED(世界中の著名人によるさまざまな講演会を開催・配信している非営利団体)にも出演歴があります(日本語字幕もあるのでぜひ)。<br>
-<div style="position: relative;padding-bottom: 56.25%;height: 0;overflow: hidden;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vhhgI4tSMwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe>
-</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vhhgI4tSMwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 この本は彼女がカウンセラーとして、20代の相談者に行ったカウンセリングを通じて得た知見を本にしたものです。<br>
 つまり、決して彼女の個人的な意見を語った本ではなく、数多くのサンプルに基づいた統計的にも裏付けのあるものになっているということです。<br>
@@ -97,6 +97,6 @@ comments: true
 
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=ringoku06-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B00N4FBEK8&linkId=3da4f2ab0d81d5e08bb77af69463991c"></iframe>
 
-<br>
+
 感想やご意見・質問等ございましたら、<a href="https://twitter.com/RinGoku98">私のTwitter</a>までお気軽にどうぞ。
 
