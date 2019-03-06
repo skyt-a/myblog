@@ -31,7 +31,26 @@ comments: true
 
 この本の著者はメグジェイというアメリカの女性心理学者です。<br>
 20代の若者の心理を専門としており、私設のクリニックでカウンセラーとしても活動しています。<br>
-また彼女はTED()
+また彼女はTED(世界中の著名人によるさまざまな講演会を開催・配信している非営利団体)にも出演歴があります(日本語字幕もあるのでぜひ)。<br>
 <div style="position: relative;padding-bottom: 56.25%;height: 0;overflow: hidden;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vhhgI4tSMwc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"></iframe>
 </div>
+
+この本は彼女がカウンセラーとして、20代の相談者に行ったカウンセリングを通じて得た知見を本にしたものです。<br>
+つまり、決して彼女の個人的な意見を語った本ではなく、数多くのサンプルに基づいた統計的にも意味がある内容ということです。<br>
+
+この本は3部構成となっており、<br>
+
+第一部: 仕事<br>
+第二部: 恋愛<br>
+第三部: 脳と肉体<br>
+
+に分かれています。<br>
+
+その中でも私が最も面白いと感じたのは、第一部の「仕事」です。<br>
+特に以下の言葉にははっとさせられました。<br>
+
+>２０代の若者はアイデンティティクライシスこそが今こそ解決するべきで、アイデンティティキャピタルはまだまだ先の話だと思っている。
+
+アイデンティティ・クライシスとは「自己喪失感」を示しており、例えば「自分が生きてて何か社会のためになるのだろうか」と落ち込んだりすることを指します。<br>
+この「自分は何者なのかわからない」状態はよく青年期に
