@@ -13,6 +13,7 @@ comments: true
 
 今回は書籍紹介ということで、私が読んで面白かったと感じた書籍を紹介するという記事です。<br>
 今回紹介する本はこちら
+
 <a href="https://www.amazon.co.jp/dp/B00N4FBEK8/ref=as_li_ss_il?_encoding=UTF8&btkr=1&linkCode=li3&tag=ringoku06-22&linkId=fef7dd57116588b9e41564a4a0534b13&language=ja_JP" target="_blank"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00N4FBEK8&Format=_SL250_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1&tag=ringoku06-22&language=ja_JP" ></a><img src="https://ir-jp.amazon-adsystem.com/e/ir?t=ringoku06-22&language=ja_JP&l=li3&o=9&a=B00N4FBEK8" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
 
 「人生は20代で決まる　TEDの名スピーカーが贈る「仕事・結婚・将来設計」講義」という書籍です。<br>
