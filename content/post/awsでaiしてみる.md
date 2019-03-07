@@ -1,5 +1,5 @@
 ---
-title: AWSでAIしてみる
+title: AWSでAIに触れてみる
 description: AWS(Amazon Web Service)のサービスを使ってAIを触ってみようと思います
 date: 2019-03-07T11:35:29.164Z
 image: /images/uploads/aws_polly1.png
