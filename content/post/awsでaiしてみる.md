@@ -45,8 +45,63 @@ aws polly synthesize-speech --output-format mp3 --voice-id Mizuki --text 'こん
 <audio src="/images/uploads/hello.mp3" controls></audio>
 
 
-Webアプリからも呼び出して使うことができそうです。<br>
+アプリケーションからも呼び出して使うことができそうです。<br>
 (<a href="https://docs.aws.amazon.com/ja_jp/polly/latest/dg/examples-python.html">こちらのURL</a>など参照していただければ)
 
-### Amazon Polly
+### Amazon Rekognition
+
+<img src="/images/uploads/aws_rec.png" 
+style="width:100%;"/>
+
+APIで利用できる画像解析ソリューションです。<br>
+物体と背景の検出や顔認識が行えるみたいです。<br>
+
+デモページが提供されていて、手軽に試すことができます。<br>
+
+<img src="/images/uploads/aws_rec1.png" 
+style="width:100%;"/>
+
+試しにスティーブ・ジョブズの画像をアップロードしてみると...<br>
+
+<img src="/images/uploads/aws_rec3.png" 
+style="width:100%;"/>
+
+Crowd(群衆)やAudience(聴衆)のスコアが高いのが気になりますが、Person・Human(人間)であることや、Speech・Lectureなどスピーチをしていることも読み取れているようですね。<br>
+
+APIのレスポンスとしては以下のようなJSONが受け取れるようです。<br>
+```
+{
+    "LabelModelVersion": "2.0",
+    "Labels": [
+        {
+            "Confidence": 99.79688262939453,
+            "Instances": [],
+            "Name": "Crowd",
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ]
+        },
+        {
+            "Confidence": 99.79688262939453,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Height": 0.915002703666687,
+                        "Left": 0.050240013748407364,
+                        "Top": 0.05236506834626198,
+                        "Width": 0.8705257177352905
+                    },
+                    "Confidence": 97.955322265625
+                }
+            ],
+            "Name": "Person",
+            "Parents": []
+        }, ...
+```
+
+例えばCoopetの開発においては、動物の写真であるかを判断して無関係な画像のアップロードを禁止することもできそうですね(本当にやるのはちょっと怖いですが...)。
+
+
 
