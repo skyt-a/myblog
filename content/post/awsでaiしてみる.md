@@ -8,6 +8,7 @@ categories:
   - 技術紹介
 tags:
   - IT学習
+  - AI
   - AWS
 comments: true
 ---
