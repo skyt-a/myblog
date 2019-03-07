@@ -65,4 +65,9 @@ pygmentsoptions = "linenos=inline"
   url = "/tags/使ってみるシリーズ/"
   weight = 98
 
+[[menu.main]]
+  name = "書籍紹介"
+  url = "/tags/書籍紹介/"
+  weight = 98
+
 
