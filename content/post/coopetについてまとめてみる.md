@@ -6,7 +6,7 @@ description: |-
 date: 2019-03-05T11:24:14.691Z
 image: /images/uploads/twitter_header_photo_1.png
 categories:
-  - Coopet開発、自己紹介
+  - Coopet開発
 tags:
   - Coopet開発
 comments: true
