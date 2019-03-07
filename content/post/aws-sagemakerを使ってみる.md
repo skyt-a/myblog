@@ -18,3 +18,6 @@ https://dev.classmethod.jp/cloud/aws/sagemaker-umaibo-object-detection/
 
 画像ダウンロード<br>
 https://co.bsnws.net/article/295
+
+pip使えない場合<br>
+https://qiita.com/huushihi/items/c7f578bf51c0017c9076
