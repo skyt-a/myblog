@@ -60,4 +60,9 @@ pygmentsoptions = "linenos=inline"
   url = "/categories/"
   weight = 99
 
+[[menu.main]]
+  name = "使ってみるシリーズ"
+  url = "/tags/使ってみるシリーズ/"
+  weight = 98
+
 
