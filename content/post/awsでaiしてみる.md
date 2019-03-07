@@ -6,7 +6,6 @@ date: 2019-03-07T11:35:29.164Z
 image: /images/uploads/aws_ai.jpg
 categories:
   - 技術紹介
-  - AWS
 tags:
   - IT学習
   - AWS
