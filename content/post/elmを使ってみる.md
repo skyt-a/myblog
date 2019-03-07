@@ -6,7 +6,6 @@ image: /images/uploads/elm.png
 categories:
   - 使ってみるシリーズ
   - 技術紹介
-  - Elm
 tags:
   - 使ってみるシリーズ
   - 技術紹介
