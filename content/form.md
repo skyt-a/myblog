@@ -7,7 +7,7 @@ share = false
 title = "お問い合わせ"
 type = "page"
 [menu.main]
-weight = 96
+weight = 80
 
 +++
 
