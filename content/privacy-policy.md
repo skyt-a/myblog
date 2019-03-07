@@ -7,7 +7,7 @@ share = false
 title = "プライバシーポリシー"
 type = "page"
 [menu.main]
-weight = 96
+weight = 70
 
 +++
 
