@@ -1,5 +1,5 @@
 ---
-title: Amazon SageMakerを使ってみる【前編】
+title: Amazon SageMakerを使ってみる【学習データ準備編】
 description: |-
   Amazon SageMakerという機械学習サービスを使ってみます。
   今回は機械学習用の画像データを用意する過程をご紹介します。
