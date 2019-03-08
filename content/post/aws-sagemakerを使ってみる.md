@@ -1,6 +1,8 @@
 ---
-title: AWS Sagemakerを使ってみる
-description: AWS Sagemakerを使ってみる
+title: Amazon SageMakerを使ってみる【前編】
+description: |-
+  Amazon SageMakerという機械学習サービスを使ってみます。
+  今回は機械学習用の画像データを用意する過程をご紹介します。
 date: 2019-03-07T13:50:54.264Z
 image: /images/uploads/aws_ai.jpg
 categories:
@@ -9,15 +11,31 @@ categories:
 tags:
   - IT学習
   - AWS
-  - ''
 comments: true
 ---
 ## はじめに
 
-https://dev.classmethod.jp/cloud/aws/sagemaker-umaibo-object-detection/
+社内勉強会の討論ネタの確保のため、<a href="https://elated-blackwell-51e103.netlify.com/post/aws%E3%81%A7ai%E3%81%AB%E8%A7%A6%E3%82%8C%E3%81%A6%E3%81%BF%E3%82%8B/">前回の記事</a>ではAWSが提供している機械学習以外のAI関連サービスについてご紹介しました。<br>
+今回はAWSが提供する機械学習サービス「Amazon SageMaker」を使ってみようと思います。<br>
+なお、AIは完全初心者で勉強中の身なので、内容に間違いがある可能性があります。<br>
+認識違いなどございましたら、ご指摘よろしくお願いします。
 
-画像ダウンロード<br>
-https://co.bsnws.net/article/295
+## 機械学習の流れ
 
-pip使えない場合<br>
-https://qiita.com/huushihi/items/c7f578bf51c0017c9076
+超大雑把に言えば、学習用のデータを用意して、そのデータをAIのエンジンに読み込ませて学習させて、学習用のデータ以外のデータを渡して精度をチェックして、学習用データを変えてみたり、学習のパラメータを変えてみたりを繰り返していくイメージ。<br>
+今回の記事では最初の最初、学習用のデータを用意するところを解説したいと思います。<br>
+
+## そもそもどんな機械学習を行うのか
+
+一口に機械学習といっても、できることは色々ありますが、今回は「物体検出」を行いたいと思います。<br>
+物体検出とは、画像の中から定められた物体の位置とその分類を検出することを指します。<br>
+そして今回検出するのは、私もペットとして飼育している「デグーマウス」という動物です。<br>
+
+<img src="/images/uploads/degu.jpg" style="width:100%;" />
+
+つまり、対象の画像からこのデグーマウスの位置を検出する機械学習を行おうと思います。<br>
+
+## 学習用データを用意する
+
+物体検出の学習用データは検出する物体が含まれた画像と、その画像内のどこに物体があるのかという正解情報です。<br>
+つまり今回は、デグーマウス
