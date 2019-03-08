@@ -2,7 +2,7 @@
 title: Amazon SageMakerを使ってみる【学習データ準備編】
 description: |-
   Amazon SageMakerという機械学習サービスを使ってみます。
-  今回は機械学習用の画像データを用意する過程をご紹介します。
+  今回は機械学習用の学習データを用意する過程をご紹介します。
 date: 2019-03-07T13:50:54.264Z
 image: /images/uploads/degu.jpg
 categories:
