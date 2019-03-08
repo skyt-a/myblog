@@ -4,7 +4,7 @@ description: |-
   Amazon SageMakerという機械学習サービスを使ってみます。
   今回は機械学習用の画像データを用意する過程をご紹介します。
 date: 2019-03-07T13:50:54.264Z
-image: /images/uploads/aws_ai.jpg
+image: /images/uploads/degu.jpg
 categories:
   - 使ってみるシリーズ
   - AWS
@@ -183,5 +183,18 @@ with open(file_name) as f:
         f = open('./json/'+'{0:04d}'.format(k+1) + '.json', 'w')
         json.dump(line, f)
 ```
+
+完了するとこのようなjsonファイルが出力されます。<br>
+<img src="/images/uploads/sagemaker8.png" style="width:100%;" />
+
+これで学習用データの用意ができました！<br>
+
+## おわりに
+
+今回はAmazon SageMakerで使用する、学習用データの用意を行いました。<br>
+次回以降の記事で実際に学習をさせてみようと思います。<br>
+本当にタグ付けは途中で発狂しそうな作業だったので、誰かもっといい方法をご存知なら、<a href="https://twitter.com/RinGoku98/">私のTwitter</a>で教えてください...<br>
+
+それでは今回はこの辺で。ここまで読んでいただき、ありがとうございました！
 
 
