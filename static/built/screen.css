@@ -200,6 +200,10 @@ h2 {
   font-size: 3rem;
 }
 
+h2.post-card-title {
+  font-size: 2rem;
+}
+
 .post-full-content p {
   font-size: 2rem;
 }
