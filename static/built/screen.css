@@ -171,7 +171,7 @@ input:focus, textarea:focus {
     line-height: 1.5em;
 }
 html, button, input, select, textarea, p, h1, h2, h3, .pure-g [class *= "pure-u"] {
-  font-family: "メイリオ", "Avenir Next", Verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+	font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
 }
 code, pre {
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
@@ -185,6 +185,10 @@ code, pre {
 }
 .post-full-content img {
  width:auto;
+}
+
+.post-full-image {
+  margin: 0;
 }
 
 /* body {
