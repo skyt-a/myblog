@@ -188,8 +188,20 @@ code, pre {
 }
 
 .post-full-image {
-  height: 800px;
+  height: 400px;
   margin: 0;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.post-full-content p {
+  font-size: 2rem;
 }
 
 /* body {
