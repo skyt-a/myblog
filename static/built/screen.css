@@ -208,6 +208,10 @@ h2.post-card-title {
   font-size: 2rem;
 }
 
+.pagination a {
+  color: #15171a;
+}
+
 /* body {
  background-color:black;
 } */

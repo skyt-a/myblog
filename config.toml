@@ -15,7 +15,7 @@ pygmentsoptions = "linenos=inline"
 [params]
   title       = "ITエンジニアりんごくの技術ブログ"
   subtitle    = "ITエンジニアりんごくの技術ブログ"
-  copyright   = "© 2019"
+  copyright   = "© 2020"
   comments = true
   cover       = "img/blog-cover.jpg"
   description = "Webエンジニアりんごくの日々の活動記録。学んだ技術についてのアウトプットや読んだ書籍の紹介などを行います。"
@@ -31,16 +31,16 @@ pygmentsoptions = "linenos=inline"
 
   logo = "hugo-logo.png"
   orgName = "りんごく"
-  orgWebsite = "https://www.telematika.org"
+  orgWebsite = "https://ringoku.work"
   orgDescription = ""
 
   showSupport = true
 
   author = "りんごく"
   authorAvatar = "images/uploads/tpaimsdo_400x400.jpg"
-  authorLocation = "東京品川区"
+  authorLocation = "東京板橋区"
   authorWebsite = "https://ringoku.github.io"
-  authorDescription = "Webエンジニア。好きなフレームワークはAngular"
+  authorDescription = "2019年8月よりフリーランスとして活動するフロントエンドエンジニア。Reactが友達。"
 
   pageNotFoundTitle = "404 - Page not found"
 
@@ -54,11 +54,6 @@ pygmentsoptions = "linenos=inline"
   name = "Home"
   url = "/"
   weight = 200
-
-[[menu.main]]
-  name = "カテゴリー"
-  url = "/categories/"
-  weight = 99
 
 [[menu.main]]
   name = "使ってみるシリーズ"
